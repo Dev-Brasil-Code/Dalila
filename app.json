@@ -1,0 +1,103 @@
+{
+    "name": "Dalila",
+    "description": "Quando você vai enviar o arquivo no canal de telegrama, este bot irá salvá-lo no banco de dados, para que você possa pesquisar facilmente no modo inline",
+    "keywords": [
+      "telegram",
+      "auto-filter",
+      "filter",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
+    ],
+    "website": "https://github.com/Dev-Brasil-Code/Dalila",
+    "repository": "https://github.com/Dev-Brasil-Code/Dalila",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Seu token de bot.",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Obtenha este valor de https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Obtenha este valor de https://my.telegram.org",
+            "value": ""
+        },
+        "CHANNELS": {
+            "description": "Nome de usuário ou ID do canal ou grupo. Separe vários IDs por espaço.",
+            "value": ""
+        },
+        "ADMINS": {
+            "description": "Nome de usuário ou ID do administrador. Separe vários administradores por espaço.",
+            "value": ""
+        },
+        "PICS": {
+            "description": "Adicione algum link telegráfico de fotos .",
+            "value": ""
+        },
+        "LOG_CHANNEL": {
+            "description": "Logs de bots, forneça um id de canal com -100xxxxxxx",
+            "value": ""
+        },
+        "SUPPORT_CHAT": {
+            "description": "Nome de usuário de um Grupo de Apoio / ADMIN. (Deve ser nome de usuário sem @ e não ID)",
+            "value": ""
+        },
+        "AUTH_USERS": {
+            "description": "Nome de usuário ou ID de usuários para dar acesso à pesquisa embutida. Separe vários usuários por espaço.\nDeixe em branco se você não quiser restringir o uso do bot.",
+            "value": "",
+            "required": false
+        },
+        "AUTH_CHANNEL": {
+            "description": "ID do canal. Certifique-se de que o bot é administrador neste canal. Sem se inscrever neste canal, os usuários não podem usar o bot.",
+            "value": "",
+            "required": false
+        },   
+        "USE_CAPTION_FILTER": {
+            "description": "Se o bot deve usar legendas para melhorar os resultados da pesquisa. (True False)",
+            "value": "False",
+            "required": false
+        },
+        "CUSTOM_FILE_CAPTION": {
+            "description": "Uma legenda de arquivo personalizada para seus arquivos. formatável com , file_name, file_caption, file_size, Leia Readme.md para melhor compreensão.",
+            "value": "",
+            "required": false
+        },
+        "DATABASE_URI": {
+            "description": "mongoDB URI. Obtenha este valor de https://www.mongodb.com.",
+            "value": ""
+        },
+        "DATABASE_NAME": {
+            "description": "Nome do banco de dados em mongoDB. Para obter mais ajuda, assista a este vídeo",
+            "value": ""
+        },
+        "COLLECTION_NAME": {
+            "description": "Nome das coleções. O padrão é Telegram_files. Se você estiver usando o mesmo banco de dados, use nomes de coleção diferentes para cada bot",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "CACHE_TIME": {
+            "description": "A quantidade máxima de tempo em segundos que o resultado da consulta inline pode ser armazenado em cache no servidor",
+            "value": "300",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

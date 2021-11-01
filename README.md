@@ -2,22 +2,22 @@
 
 ## Features
 
-- [] Auto Filter
+- [x] Filtro Automático
 - [x] Manuel Filter
 - [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- [x] Comandos de Admin
+- [x] Transmissão
+- [x] Índice
+- [x] Pesquisa IMDB
+- [x] Pesquisa Inline
+- [x] Fotos aleatórias
+- [x] ids e informações do usuário
+- [x] Estatísticas, usuários, bate-papos, banir, cancelar, sair, desativar, canal
 
 
-## Variables
+## Variáveis
 
-### Required Variables
+### Variáveis ​​Requeridas
 * `BOT_TOKEN`: Crie um bot usando [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Obtenha este valor de [telegram.org](https://my.telegram.org/apps)
 * `API_HASH`: Obtenha este valor de [telegram.org](https://my.telegram.org/apps)
@@ -56,31 +56,31 @@ python3 bot.py
 </details>
 
 
-## Admin commands
+## Comandos de administração
 ```
-• /logs - to get the rescent errors
-• /stats - to get status of files in db.
-* /filter - add manual filters
-* /filters - view filters
-* /connect - connect to PM.
-* /disconnect - disconnect from PM
-* /del - delete a filter
-* /delall - delete all filters
-* /deleteall - delete all index(autofilter)
-* /delete - delete a specific file from index.
-* /info - get user info
-* /id - get tg ids.
-* /imdb - fetch info from imdb.
-• /users - to get list of my users and ids.
-• /chats - to get list of the my chats and ids 
-• /index  - to add files from a channel
-• /leave  - to leave from a chat.
-• /disable  -  do disable a chat.
-* /enable - re-enable chat.
-• /ban  - to ban a user.
-• /unban  - to unban a user.
-• /channel - to get list of total connected channels
-• /broadcast - to broadcast a message to all Eva Maria users
+• /logs - para obter os erros recentes
+• /stats - para obter o status dos arquivos no banco de dados.
+* /filter - adicionar filtros manuais
+* /filters - ver filtros
+* /connect - conectar ao PM.
+* /disconnect - desconectar do PM
+* /del - deletar um filtro
+* /delall - deletar todos os filtros
+* /deleteall - deletar todo o índice (filtro automático)
+* /delete - exclua um arquivo específico do índice.
+* /info - obter informações do usuário
+* /id - obter ids tg.
+* /imdb - buscar informações do imdb.
+• /users - para obter a lista de meus usuários e ids.
+• /chats - para obter a lista dos meus chats e isso 
+• /index  - adicionar arquivos de um canal
+• /leave  - para sair de um bate-papo.
+• /disable  -  desabilite um chat.
+* /enable - reative o bate-papo.
+• /ban  - para banir um usuário.
+• /unban  - para cancelar o banimento de um usuário.
+• /channel - para obter a lista do total de canais conectados
+• /broadcast - para transmitir uma mensagem a todos os usuários de Dalila
 ```
 
 ## Créditos 

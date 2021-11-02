@@ -25,7 +25,7 @@ async def start(client, message):
             InlineKeyboardButton('Atualizações 🤖', url='https://t.me/Doacoes_full')
             ],[
             InlineKeyboardButton('ℹ️ Ajuda', callback_data='help'),
-            InlineKeyboardButton('Abou 🤔', callback_data='about')
+            InlineKeyboardButton('About 🤔', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(

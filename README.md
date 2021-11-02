@@ -1,9 +1,9 @@
 # Telegram Movie Bot
-
 <img align="right" alt="JPG" src="https://i.ibb.co/nB0p67z/images-1.jpg" />
 
-## Features
+## BETA V1.0
 
+### Features
 - [x] Filtro Automático
 - [x] Manuel Filter
 - [x] IMDB
@@ -16,8 +16,7 @@
 - [x] ids e informações do usuário
 - [x] Estatísticas, usuários, bate-papos, banir, cancelar, sair, desativar, canal
 
-
-## Variáveis
+## Vars
 
 ### Variáveis ​​Requeridas
 * `BOT_TOKEN`: Crie um bot usando [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.

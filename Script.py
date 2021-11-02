@@ -1,9 +1,9 @@
 class script(object):
-    START_TXT = """Hello {},
+    START_TXT = """Olá {},
 
-Kei oi <a href='https://t.me/'>Dingdi</a> ka ni e!
+Me chamo <a href='https://t.me/txslcentral_bot'>Dalila</a> tudo bem ?!
 
-<b>I Filme bom né 😍</b>"""
+<b>Também administro grupos e baixo filmes do imdb 😍</b>"""
 
     HELP_TXT = """Ei {}
 
@@ -39,17 +39,17 @@ Kei oi <a href='https://t.me/'>Dingdi</a> ka ni e!
 2. Filtro de Admin de grupo
 3. Os botões de alerta limitam oi 64 caracteres.
 
-<b>Commands Filtros:</b>
+<b>Comandos Filtros:</b>
 • /filter - <code>Adicionar filtro</code>
 • /filters - <code>Ver filtros do grupo.</code>
 • /del - <code>Deletar filtro</code>
 • /delall - <code>Deletar todos os filtros. (Dono do Grupo Chauh)</code>"""
 
-    BUTTON_TXT = """Help: <b>Buttons</b>
+    BUTTON_TXT = """Ajuda: <b>Buttons</b>
 
-- Dingdi hian both url leh alert inline buttons a Support.
+- Dalila alerta inline buttons Support.
 
-<b>NOTE:</b>
+<b>NOTA:</b>
 1. O Telegram não permite o envio de botões sem nenhum conteúdo, portanto, o conteúdo é obrigatório.
 2. A Dalila suporta botões com qualquer tipo de mídia de telegrama.
 3. Os botões devem ser analisados ​​corretamente como formato de redução.
@@ -60,7 +60,7 @@ Kei oi <a href='https://t.me/'>Dingdi</a> ka ni e!
 <b>Botões de alerta:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
 
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """Ajuda: <b>Auto Filter</b>
 
 <b>NOTA:</b>
 1. Torne-me o administrador do seu canal, se for privado.
@@ -68,21 +68,21 @@ Kei oi <a href='https://t.me/'>Dingdi</a> ka ni e!
 3. Encaminhe a última mensagem para mim com aspas.
  Vou adicionar todos os arquivos desse canal ao meu banco de dados."""
 
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """Ajuda: <b>Connections</b>
 
 - Usado para conectar o bot ao PM para gerenciar filtros 
 - Ajuda a evitar spam em grupos.
 
-<b>NOTE:</b>
+<b>NOTA:</b>
 1. Apenas administradores podem adicionar uma conexão.
 2. Mandar <code>/connect</code> por me conectar ao seu PM
 
-<b>Commands conecxoes:</b>
+<b>Comandos conecxoes:</b>
 • /connect  - <code>Conecte ao seu grupo/canal.</code>
 • /disconnect  - <code>Desconectar grupo/canal.</code>
 • /connections - <code>Verificar conexões</code>"""
 
-    EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
+    EXTRAMOD_TXT = """Ajuda: <b>Extra Modules</b>
 
 <b>NOTA:</b>
 Esses são os recursos extras do tessa
@@ -93,12 +93,12 @@ Esses são os recursos extras do tessa
 • /imdb  - <code>obter as informações do filme da fonte IMDb.</code>
 • /search  - <code>obter as informações do filme de várias fontes.</code>"""
 
-    ADMIN_TXT = """Help: <b>Admin Mods</b>
+    ADMIN_TXT = """Ajuda: <b>Admin Mods</b>
 
 <b>NOTA:</b>
 Estes são comandos apenas para os ADM.
 
-<b>Commands and Usage:</b>
+<b>Comandos e Uso</b>
 • /logs - <code>para obter os erros recentes</code>
 • /stats - <code>para obter o status dos arquivos em db.</code>
 • /users - <code>para obter a lista de meus usuários e ids.</code>

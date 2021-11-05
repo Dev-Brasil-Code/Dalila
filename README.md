@@ -1,7 +1,4 @@
-# Telegram Movie Bot
-<img align="right" alt="JPG" src="https://i.ibb.co/nB0p67z/images-1.jpg" />
-
-## BETA V1.0
+# Telegram Bot Imdb
 
 ### Features
 - [x] Filtro Automático
